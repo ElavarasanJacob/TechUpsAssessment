@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 461797500,
+              "duration": 562842300,
               "status": "passed"
             },
             "line": 4,
@@ -33,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2309357000,
+              "duration": 2443246000,
               "status": "passed"
             },
             "line": 7,
@@ -63,7 +63,7 @@
           },
           {
             "result": {
-              "duration": 1537400,
+              "duration": 1826400,
               "status": "passed"
             },
             "line": 8,
@@ -81,7 +81,7 @@
           },
           {
             "result": {
-              "duration": 583548000,
+              "duration": 664910200,
               "status": "passed"
             },
             "line": 9,
@@ -128,7 +128,7 @@
         "steps": [
           {
             "result": {
-              "duration": 526900,
+              "duration": 683600,
               "status": "passed"
             },
             "line": 4,
@@ -150,7 +150,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1429359800,
+              "duration": 1397508600,
               "status": "passed"
             },
             "line": 7,
@@ -180,7 +180,7 @@
           },
           {
             "result": {
-              "duration": 280700,
+              "duration": 143600,
               "status": "passed"
             },
             "line": 8,
@@ -198,7 +198,7 @@
           },
           {
             "result": {
-              "duration": 62557000,
+              "duration": 59834600,
               "status": "passed"
             },
             "line": 9,
@@ -245,7 +245,7 @@
         "steps": [
           {
             "result": {
-              "duration": 391500,
+              "duration": 383000,
               "status": "passed"
             },
             "line": 4,
@@ -267,7 +267,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1425933100,
+              "duration": 1410076000,
               "status": "passed"
             },
             "line": 17,
@@ -297,7 +297,7 @@
           },
           {
             "result": {
-              "duration": 352600,
+              "duration": 305100,
               "status": "passed"
             },
             "line": 18,
@@ -315,7 +315,7 @@
           },
           {
             "result": {
-              "duration": 60780300,
+              "duration": 64137600,
               "status": "passed"
             },
             "line": 19,
@@ -362,7 +362,7 @@
         "steps": [
           {
             "result": {
-              "duration": 554800,
+              "duration": 414800,
               "status": "passed"
             },
             "line": 4,
@@ -384,7 +384,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1381920500,
+              "duration": 1391024100,
               "status": "passed"
             },
             "line": 26,
@@ -414,7 +414,7 @@
           },
           {
             "result": {
-              "duration": 273600,
+              "duration": 299500,
               "status": "passed"
             },
             "line": 27,
@@ -432,7 +432,7 @@
           },
           {
             "result": {
-              "duration": 53683400,
+              "duration": 50292100,
               "status": "passed"
             },
             "line": 28,
@@ -479,7 +479,7 @@
         "steps": [
           {
             "result": {
-              "duration": 448900,
+              "duration": 377400,
               "status": "passed"
             },
             "line": 4,
@@ -501,7 +501,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1418902400,
+              "duration": 1425436700,
               "status": "passed"
             },
             "line": 35,
@@ -531,7 +531,7 @@
           },
           {
             "result": {
-              "duration": 305000,
+              "duration": 308200,
               "status": "passed"
             },
             "line": 36,
@@ -549,7 +549,7 @@
           },
           {
             "result": {
-              "duration": 51085500,
+              "duration": 49728900,
               "status": "passed"
             },
             "line": 37,
@@ -596,7 +596,7 @@
         "steps": [
           {
             "result": {
-              "duration": 421300,
+              "duration": 434300,
               "status": "passed"
             },
             "line": 4,
@@ -618,7 +618,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1395810200,
+              "duration": 1422143600,
               "status": "passed"
             },
             "line": 44,
@@ -648,7 +648,7 @@
           },
           {
             "result": {
-              "duration": 275400,
+              "duration": 310500,
               "status": "passed"
             },
             "line": 45,
@@ -666,7 +666,7 @@
           },
           {
             "result": {
-              "duration": 66291300,
+              "duration": 66320000,
               "status": "passed"
             },
             "line": 46,
@@ -709,7 +709,7 @@
     "description": "",
     "id": "api-automation",
     "keyword": "Feature",
-    "uri": "src/test/resources/Features/Services/TC1_.feature",
+    "uri": "src/test/resources/Features/Services/TC1_APICall.feature",
     "tags": []
   }
 ]

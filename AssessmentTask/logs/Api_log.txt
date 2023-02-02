@@ -1,83 +1,84 @@
-INFO 2023-02-02 22:23:32,449 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
-INFO 2023-02-02 22:23:32,450 [main] com.base.BaseClassForAPI  - Header Added successfully!
-INFO 2023-02-02 22:23:32,457 [main] com.base.BaseClassForAPI  - Query parameter key::q::Value::London
-INFO 2023-02-02 22:23:32,458 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
-INFO 2023-02-02 22:23:34,760 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
-INFO 2023-02-02 22:23:34,760 [main] com.base.BaseClassForAPI  - Status code is:: 200
-INFO 2023-02-02 22:23:34,762 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
-INFO 2023-02-02 22:23:35,263 [main] com.base.BaseClassForAPI  - lon: -0.13
-INFO 2023-02-02 22:23:35,276 [main] com.base.BaseClassForAPI  - lat: 51.51
-INFO 2023-02-02 22:23:35,308 [main] com.base.BaseClassForAPI  - description: light intensity drizzle
-INFO 2023-02-02 22:23:35,324 [main] com.base.BaseClassForAPI  - pressure: 1012
-INFO 2023-02-02 22:23:35,335 [main] com.base.BaseClassForAPI  - country: GB
-INFO 2023-02-02 22:23:35,345 [main] com.base.BaseClassForAPI  - name: London
-INFO 2023-02-02 22:23:35,347 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
-INFO 2023-02-02 22:23:35,347 [main] com.base.BaseClassForAPI  - Header Added successfully!
-INFO 2023-02-02 22:23:35,347 [main] com.base.BaseClassForAPI  - Query parameter key::q::Value::London,uk
-INFO 2023-02-02 22:23:35,347 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
-INFO 2023-02-02 22:23:36,776 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
-INFO 2023-02-02 22:23:36,776 [main] com.base.BaseClassForAPI  - Status code is:: 200
-INFO 2023-02-02 22:23:36,776 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
-INFO 2023-02-02 22:23:36,791 [main] com.base.BaseClassForAPI  - lon: -0.13
-INFO 2023-02-02 22:23:36,801 [main] com.base.BaseClassForAPI  - lat: 51.51
-INFO 2023-02-02 22:23:36,811 [main] com.base.BaseClassForAPI  - description: light intensity drizzle
-INFO 2023-02-02 22:23:36,820 [main] com.base.BaseClassForAPI  - pressure: 1012
-INFO 2023-02-02 22:23:36,830 [main] com.base.BaseClassForAPI  - country: GB
-INFO 2023-02-02 22:23:36,839 [main] com.base.BaseClassForAPI  - name: London
-INFO 2023-02-02 22:23:36,840 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
-INFO 2023-02-02 22:23:36,840 [main] com.base.BaseClassForAPI  - Header Added successfully!
-INFO 2023-02-02 22:23:36,841 [main] com.base.BaseClassForAPI  - Query parameter key::id::Value::2172797
-INFO 2023-02-02 22:23:36,841 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
-INFO 2023-02-02 22:23:38,266 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
-INFO 2023-02-02 22:23:38,266 [main] com.base.BaseClassForAPI  - Status code is:: 200
-INFO 2023-02-02 22:23:38,266 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
-INFO 2023-02-02 22:23:38,280 [main] com.base.BaseClassForAPI  - lon: 145.77
-INFO 2023-02-02 22:23:38,290 [main] com.base.BaseClassForAPI  - lat: -16.92
-INFO 2023-02-02 22:23:38,299 [main] com.base.BaseClassForAPI  - description: scattered clouds
-INFO 2023-02-02 22:23:38,309 [main] com.base.BaseClassForAPI  - pressure: 1007
-INFO 2023-02-02 22:23:38,317 [main] com.base.BaseClassForAPI  - country: AU
-INFO 2023-02-02 22:23:38,327 [main] com.base.BaseClassForAPI  - name: Cairns
-INFO 2023-02-02 22:23:38,328 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
-INFO 2023-02-02 22:23:38,329 [main] com.base.BaseClassForAPI  - Header Added successfully!
-INFO 2023-02-02 22:23:38,329 [main] com.base.BaseClassForAPI  - Query parameter key::lat::Value::35
-INFO 2023-02-02 22:23:38,329 [main] com.base.BaseClassForAPI  - Query parameter key::lon::Value::139
-INFO 2023-02-02 22:23:38,329 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
-INFO 2023-02-02 22:23:39,710 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
-INFO 2023-02-02 22:23:39,710 [main] com.base.BaseClassForAPI  - Status code is:: 200
-INFO 2023-02-02 22:23:39,710 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
-INFO 2023-02-02 22:23:39,722 [main] com.base.BaseClassForAPI  - lon: 139.01
-INFO 2023-02-02 22:23:39,731 [main] com.base.BaseClassForAPI  - lat: 35.02
-INFO 2023-02-02 22:23:39,738 [main] com.base.BaseClassForAPI  - description: clear sky
-INFO 2023-02-02 22:23:39,747 [main] com.base.BaseClassForAPI  - pressure: 1013.75
-INFO 2023-02-02 22:23:39,754 [main] com.base.BaseClassForAPI  - country: JP
-INFO 2023-02-02 22:23:39,765 [main] com.base.BaseClassForAPI  - name: Tawarano
-INFO 2023-02-02 22:23:39,766 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
-INFO 2023-02-02 22:23:39,766 [main] com.base.BaseClassForAPI  - Header Added successfully!
-INFO 2023-02-02 22:23:39,766 [main] com.base.BaseClassForAPI  - Query parameter key::zip::Value::94040,us
-INFO 2023-02-02 22:23:39,766 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
-INFO 2023-02-02 22:23:41,185 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
-INFO 2023-02-02 22:23:41,185 [main] com.base.BaseClassForAPI  - Status code is:: 200
-INFO 2023-02-02 22:23:41,185 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
-INFO 2023-02-02 22:23:41,196 [main] com.base.BaseClassForAPI  - lon: -122.09
-INFO 2023-02-02 22:23:41,205 [main] com.base.BaseClassForAPI  - lat: 37.39
-INFO 2023-02-02 22:23:41,213 [main] com.base.BaseClassForAPI  - description: light rain
-INFO 2023-02-02 22:23:41,220 [main] com.base.BaseClassForAPI  - pressure: 1017
-INFO 2023-02-02 22:23:41,228 [main] com.base.BaseClassForAPI  - country: US
-INFO 2023-02-02 22:23:41,235 [main] com.base.BaseClassForAPI  - name: Mountain View
-INFO 2023-02-02 22:23:41,236 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
-INFO 2023-02-02 22:23:41,236 [main] com.base.BaseClassForAPI  - Header Added successfully!
-INFO 2023-02-02 22:23:41,237 [main] com.base.BaseClassForAPI  - Query parameter key::zip::Value::94040,us
-INFO 2023-02-02 22:23:41,237 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
-INFO 2023-02-02 22:23:42,633 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
-INFO 2023-02-02 22:23:42,633 [main] com.base.BaseClassForAPI  - Status code is:: 200
-INFO 2023-02-02 22:23:42,633 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
-INFO 2023-02-02 22:23:42,643 [main] com.base.BaseClassForAPI  - lon: -122.09
-INFO 2023-02-02 22:23:42,651 [main] com.base.BaseClassForAPI  - lat: 37.39
-INFO 2023-02-02 22:23:42,659 [main] com.base.BaseClassForAPI  - description: light rain
-INFO 2023-02-02 22:23:42,680 [main] com.base.BaseClassForAPI  - pressure: 1017
-INFO 2023-02-02 22:23:42,690 [main] com.base.BaseClassForAPI  - country: US
-INFO 2023-02-02 22:23:42,700 [main] com.base.BaseClassForAPI  - name: Mountain View
-INFO 2023-02-02 22:23:42,719 [main] com.base.BaseClassForAPI  - Config.properties file loaded!
-INFO 2023-02-02 22:23:42,720 [main] com.base.BaseClassForAPI  - Config.properties file loaded!
-INFO 2023-02-02 22:23:43,301 [main] com.base.BaseClassForAPI  - API Reports Generated successfully
-INFO 2023-02-02 22:23:43,301 [main] com.base.BaseClassForAPI  - Execution completed
+INFO 2023-02-02 23:49:47,163 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
+INFO 2023-02-02 23:49:47,163 [main] com.base.BaseClassForAPI  - Header Added successfully!
+INFO 2023-02-02 23:49:47,172 [main] com.base.BaseClassForAPI  - Query parameter key::q::Value::London
+INFO 2023-02-02 23:49:47,172 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
+INFO 2023-02-02 23:49:49,609 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
+INFO 2023-02-02 23:49:49,609 [main] com.base.BaseClassForAPI  - Status code is:: 200
+INFO 2023-02-02 23:49:49,611 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
+INFO 2023-02-02 23:49:50,178 [main] com.base.BaseClassForAPI  - lon: -0.13
+INFO 2023-02-02 23:49:50,194 [main] com.base.BaseClassForAPI  - lat: 51.51
+INFO 2023-02-02 23:49:50,238 [main] com.base.BaseClassForAPI  - description: light intensity drizzle
+INFO 2023-02-02 23:49:50,251 [main] com.base.BaseClassForAPI  - pressure: 1012
+INFO 2023-02-02 23:49:50,266 [main] com.base.BaseClassForAPI  - country: GB
+INFO 2023-02-02 23:49:50,276 [main] com.base.BaseClassForAPI  - name: London
+INFO 2023-02-02 23:49:50,278 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
+INFO 2023-02-02 23:49:50,278 [main] com.base.BaseClassForAPI  - Header Added successfully!
+INFO 2023-02-02 23:49:50,278 [main] com.base.BaseClassForAPI  - Query parameter key::q::Value::London,uk
+INFO 2023-02-02 23:49:50,278 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
+INFO 2023-02-02 23:49:51,675 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
+INFO 2023-02-02 23:49:51,675 [main] com.base.BaseClassForAPI  - Status code is:: 200
+INFO 2023-02-02 23:49:51,675 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
+INFO 2023-02-02 23:49:51,687 [main] com.base.BaseClassForAPI  - lon: -0.13
+INFO 2023-02-02 23:49:51,697 [main] com.base.BaseClassForAPI  - lat: 51.51
+INFO 2023-02-02 23:49:51,708 [main] com.base.BaseClassForAPI  - description: light intensity drizzle
+INFO 2023-02-02 23:49:51,718 [main] com.base.BaseClassForAPI  - pressure: 1012
+INFO 2023-02-02 23:49:51,727 [main] com.base.BaseClassForAPI  - country: GB
+INFO 2023-02-02 23:49:51,735 [main] com.base.BaseClassForAPI  - name: London
+INFO 2023-02-02 23:49:51,736 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
+INFO 2023-02-02 23:49:51,736 [main] com.base.BaseClassForAPI  - Header Added successfully!
+INFO 2023-02-02 23:49:51,736 [main] com.base.BaseClassForAPI  - Query parameter key::id::Value::2172797
+INFO 2023-02-02 23:49:51,736 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
+INFO 2023-02-02 23:49:53,146 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
+INFO 2023-02-02 23:49:53,146 [main] com.base.BaseClassForAPI  - Status code is:: 200
+INFO 2023-02-02 23:49:53,146 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
+INFO 2023-02-02 23:49:53,158 [main] com.base.BaseClassForAPI  - lon: 145.77
+INFO 2023-02-02 23:49:53,169 [main] com.base.BaseClassForAPI  - lat: -16.92
+INFO 2023-02-02 23:49:53,181 [main] com.base.BaseClassForAPI  - description: scattered clouds
+INFO 2023-02-02 23:49:53,191 [main] com.base.BaseClassForAPI  - pressure: 1007
+INFO 2023-02-02 23:49:53,201 [main] com.base.BaseClassForAPI  - country: AU
+INFO 2023-02-02 23:49:53,210 [main] com.base.BaseClassForAPI  - name: Cairns
+INFO 2023-02-02 23:49:53,211 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
+INFO 2023-02-02 23:49:53,211 [main] com.base.BaseClassForAPI  - Header Added successfully!
+INFO 2023-02-02 23:49:53,211 [main] com.base.BaseClassForAPI  - Query parameter key::lat::Value::35
+INFO 2023-02-02 23:49:53,211 [main] com.base.BaseClassForAPI  - Query parameter key::lon::Value::139
+INFO 2023-02-02 23:49:53,212 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
+INFO 2023-02-02 23:49:54,602 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
+INFO 2023-02-02 23:49:54,602 [main] com.base.BaseClassForAPI  - Status code is:: 200
+INFO 2023-02-02 23:49:54,603 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
+INFO 2023-02-02 23:49:54,613 [main] com.base.BaseClassForAPI  - lon: 139.01
+INFO 2023-02-02 23:49:54,622 [main] com.base.BaseClassForAPI  - lat: 35.02
+INFO 2023-02-02 23:49:54,630 [main] com.base.BaseClassForAPI  - description: clear sky
+INFO 2023-02-02 23:49:54,638 [main] com.base.BaseClassForAPI  - pressure: 1013.75
+INFO 2023-02-02 23:49:54,647 [main] com.base.BaseClassForAPI  - country: JP
+INFO 2023-02-02 23:49:54,653 [main] com.base.BaseClassForAPI  - name: Tawarano
+INFO 2023-02-02 23:49:54,654 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
+INFO 2023-02-02 23:49:54,654 [main] com.base.BaseClassForAPI  - Header Added successfully!
+INFO 2023-02-02 23:49:54,654 [main] com.base.BaseClassForAPI  - Query parameter key::zip::Value::94040,us
+INFO 2023-02-02 23:49:54,654 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
+INFO 2023-02-02 23:49:56,080 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
+INFO 2023-02-02 23:49:56,080 [main] com.base.BaseClassForAPI  - Status code is:: 200
+INFO 2023-02-02 23:49:56,080 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
+INFO 2023-02-02 23:49:56,091 [main] com.base.BaseClassForAPI  - lon: -122.09
+INFO 2023-02-02 23:49:56,099 [main] com.base.BaseClassForAPI  - lat: 37.39
+INFO 2023-02-02 23:49:56,107 [main] com.base.BaseClassForAPI  - description: light rain
+INFO 2023-02-02 23:49:56,115 [main] com.base.BaseClassForAPI  - pressure: 1017
+INFO 2023-02-02 23:49:56,123 [main] com.base.BaseClassForAPI  - country: US
+INFO 2023-02-02 23:49:56,130 [main] com.base.BaseClassForAPI  - name: Mountain View
+INFO 2023-02-02 23:49:56,131 [main] com.base.BaseClassForAPI  - Header :: key is:: AcceptValue is ::application/json
+INFO 2023-02-02 23:49:56,131 [main] com.base.BaseClassForAPI  - Header Added successfully!
+INFO 2023-02-02 23:49:56,131 [main] com.base.BaseClassForAPI  - Query parameter key::zip::Value::94040,us
+INFO 2023-02-02 23:49:56,131 [main] com.base.BaseClassForAPI  - Query parameter key::appid::Value::b1b15e88fa797225412429c1c50c122a1
+INFO 2023-02-02 23:49:57,553 [main] com.base.BaseClassForAPI  - Request type is:: GET End point is :: https://samples.openweathermap.org/data/2.5/weather
+INFO 2023-02-02 23:49:57,553 [main] com.base.BaseClassForAPI  - Status code is:: 200
+INFO 2023-02-02 23:49:57,553 [main] com.base.BaseClassForAPI  - Expected Result is::200 Actual Result is::200
+INFO 2023-02-02 23:49:57,563 [main] com.base.BaseClassForAPI  - lon: -122.09
+INFO 2023-02-02 23:49:57,570 [main] com.base.BaseClassForAPI  - lat: 37.39
+INFO 2023-02-02 23:49:57,579 [main] com.base.BaseClassForAPI  - description: light rain
+INFO 2023-02-02 23:49:57,599 [main] com.base.BaseClassForAPI  - pressure: 1017
+INFO 2023-02-02 23:49:57,612 [main] com.base.BaseClassForAPI  - country: US
+INFO 2023-02-02 23:49:57,619 [main] com.base.BaseClassForAPI  - name: Mountain View
+INFO 2023-02-02 23:49:57,638 [main] com.base.BaseClassForAPI  - Config.properties file loaded!
+INFO 2023-02-02 23:49:57,639 [main] com.base.BaseClassForAPI  - Config.properties file loaded!
+INFO 2023-02-02 23:49:57,641 [main] com.base.BaseClassForAPI  - JSONFile added successfully
+INFO 2023-02-02 23:49:58,348 [main] com.base.BaseClassForAPI  - API Reports Generated successfully
+INFO 2023-02-02 23:49:58,348 [main] com.base.BaseClassForAPI  - Execution completed

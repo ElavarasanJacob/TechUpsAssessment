@@ -46,14 +46,18 @@ public class APICallsWithMultipleEnpointsStep extends BaseClassForAPI {
 	public void get_the_values_of_following_fields(String latitude,
 			String longitude,String description,String pressure,String country ,String name) throws ParseException {
 		String asPrettyString = response.asPrettyString();
-//		Map<String, String> weatherMap = readTheResponseBodyOfOpenWeatherMap(asPrettyString, latitude, longitude, description, pressure, country, name);
-//		System.out.println(weatherMap);
-		log.info(longitude +": "+jsonReader(response, "coord.lon"));
-		log.info(latitude +": "+jsonReader(response, "coord.lat"));
-		log.info(description +": "+jsonReader(response, "weather[0].description"));
-		log.info(pressure +": "+jsonReader(response, "main.pressure"));
-		log.info(country +": "+jsonReader(response, "sys.country"));
-		log.info(name +": "+jsonReader(response, "name"));
+		Map<String, String> weatherMap = readTheResponseBodyOfOpenWeatherMap(asPrettyString, latitude, longitude, description, pressure, country, name);
+		log.info(weatherMap);
+		System.out.println(weatherMap);
+		/*
+		 * @Description:Using jsonPath fetching the values
+		 */ 
+//		log.info(longitude +": "+jsonReader(response, "coord.lon"));
+//		log.info(latitude +": "+jsonReader(response, "coord.lat"));
+//		log.info(description +": "+jsonReader(response, "weather[0].description"));
+//		log.info(pressure +": "+jsonReader(response, "main.pressure"));
+//		log.info(country +": "+jsonReader(response, "sys.country"));
+//		log.info(name +": "+jsonReader(response, "name"));
 		
 	}
 
