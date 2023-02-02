@@ -1,0 +1,715 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 461797500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Retrieve the Open Weather Map end point",
+            "match": {
+              "location": "APICallsWithMultipleEnpointsStep.retrieve_the_Open_Weather_Map_end_point()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Get the value from the Open Weather Map using q and appid",
+        "description": "",
+        "id": "api-automation;get-the-value-from-the-open-weather-map-using-q-and-appid;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2309357000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hit \"GET\" end point to fetch the data in Open Weather Map using q for \"London\" and \"b1b15e88fa797225412429c1c50c122a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 5
+                },
+                {
+                  "val": "q",
+                  "offset": 64
+                },
+                {
+                  "val": "London",
+                  "offset": 71
+                },
+                {
+                  "val": "b1b15e88fa797225412429c1c50c122a1",
+                  "offset": 84
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.hit_The_Endpoint_To_Fetch_The_Data_In_Open_Weather_Map_Using(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1537400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "CommonStep.verify_The_Status_Code_Is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 583548000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Get the values of following fields \"lat\",\"lon\",\"description\",\"pressure\",\"country\" and \"name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lat",
+                  "offset": 36
+                },
+                {
+                  "val": "lon",
+                  "offset": 42
+                },
+                {
+                  "val": "description",
+                  "offset": 48
+                },
+                {
+                  "val": "pressure",
+                  "offset": 62
+                },
+                {
+                  "val": "country",
+                  "offset": 73
+                },
+                {
+                  "val": "name",
+                  "offset": 87
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.get_the_values_of_following_fields(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 526900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Retrieve the Open Weather Map end point",
+            "match": {
+              "location": "APICallsWithMultipleEnpointsStep.retrieve_the_Open_Weather_Map_end_point()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Get the value from the Open Weather Map using q and appid",
+        "description": "",
+        "id": "api-automation;get-the-value-from-the-open-weather-map-using-q-and-appid;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1429359800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Hit \"GET\" end point to fetch the data in Open Weather Map using q for \"London,uk\" and \"b1b15e88fa797225412429c1c50c122a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 5
+                },
+                {
+                  "val": "q",
+                  "offset": 64
+                },
+                {
+                  "val": "London,uk",
+                  "offset": 71
+                },
+                {
+                  "val": "b1b15e88fa797225412429c1c50c122a1",
+                  "offset": 87
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.hit_The_Endpoint_To_Fetch_The_Data_In_Open_Weather_Map_Using(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 280700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "CommonStep.verify_The_Status_Code_Is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 62557000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Get the values of following fields \"lat\",\"lon\",\"description\",\"pressure\",\"country\" and \"name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lat",
+                  "offset": 36
+                },
+                {
+                  "val": "lon",
+                  "offset": 42
+                },
+                {
+                  "val": "description",
+                  "offset": 48
+                },
+                {
+                  "val": "pressure",
+                  "offset": 62
+                },
+                {
+                  "val": "country",
+                  "offset": 73
+                },
+                {
+                  "val": "name",
+                  "offset": 87
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.get_the_values_of_following_fields(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 391500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Retrieve the Open Weather Map end point",
+            "match": {
+              "location": "APICallsWithMultipleEnpointsStep.retrieve_the_Open_Weather_Map_end_point()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Get the value from the Open Weather Map using id and appid",
+        "description": "",
+        "id": "api-automation;get-the-value-from-the-open-weather-map-using-id-and-appid;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1425933100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Hit \"GET\" end point to fetch the data in Open Weather Map using id for \"2172797\" and \"b1b15e88fa797225412429c1c50c122a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 5
+                },
+                {
+                  "val": "id",
+                  "offset": 64
+                },
+                {
+                  "val": "2172797",
+                  "offset": 72
+                },
+                {
+                  "val": "b1b15e88fa797225412429c1c50c122a1",
+                  "offset": 86
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.hit_The_Endpoint_To_Fetch_The_Data_In_Open_Weather_Map_Using(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 352600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "CommonStep.verify_The_Status_Code_Is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60780300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Get the values of following fields \"lat\",\"lon\",\"description\",\"pressure\",\"country\" and \"name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lat",
+                  "offset": 36
+                },
+                {
+                  "val": "lon",
+                  "offset": 42
+                },
+                {
+                  "val": "description",
+                  "offset": 48
+                },
+                {
+                  "val": "pressure",
+                  "offset": 62
+                },
+                {
+                  "val": "country",
+                  "offset": 73
+                },
+                {
+                  "val": "name",
+                  "offset": 87
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.get_the_values_of_following_fields(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 554800,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Retrieve the Open Weather Map end point",
+            "match": {
+              "location": "APICallsWithMultipleEnpointsStep.retrieve_the_Open_Weather_Map_end_point()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 32,
+        "name": "Get the value from the Open Weather Map using lat, lon and appid",
+        "description": "",
+        "id": "api-automation;get-the-value-from-the-open-weather-map-using-lat--lon-and-appid;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1381920500,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "Hit \"GET\" end point to fetch the data in Open Weather Map for \"35\", \"139\" and \"b1b15e88fa797225412429c1c50c122a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 5
+                },
+                {
+                  "val": "35",
+                  "offset": 63
+                },
+                {
+                  "val": "139",
+                  "offset": 69
+                },
+                {
+                  "val": "b1b15e88fa797225412429c1c50c122a1",
+                  "offset": 79
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.hit_The_Endpoint_To_Fetch_The_Data_In_Open_Weather_Map(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 273600,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Verify the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "CommonStep.verify_The_Status_Code_Is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 53683400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Get the values of following fields \"lat\",\"lon\",\"description\",\"pressure\",\"country\" and \"name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lat",
+                  "offset": 36
+                },
+                {
+                  "val": "lon",
+                  "offset": 42
+                },
+                {
+                  "val": "description",
+                  "offset": 48
+                },
+                {
+                  "val": "pressure",
+                  "offset": 62
+                },
+                {
+                  "val": "country",
+                  "offset": 73
+                },
+                {
+                  "val": "name",
+                  "offset": 87
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.get_the_values_of_following_fields(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 448900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Retrieve the Open Weather Map end point",
+            "match": {
+              "location": "APICallsWithMultipleEnpointsStep.retrieve_the_Open_Weather_Map_end_point()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 41,
+        "name": "Get the value from the Open Weather Map using zip and appid",
+        "description": "",
+        "id": "api-automation;get-the-value-from-the-open-weather-map-using-zip-and-appid;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1418902400,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Hit \"GET\" end point to fetch the data in Open Weather Map using zip for \"94040,us\" and \"b1b15e88fa797225412429c1c50c122a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 5
+                },
+                {
+                  "val": "zip",
+                  "offset": 64
+                },
+                {
+                  "val": "94040,us",
+                  "offset": 73
+                },
+                {
+                  "val": "b1b15e88fa797225412429c1c50c122a1",
+                  "offset": 88
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.hit_The_Endpoint_To_Fetch_The_Data_In_Open_Weather_Map_Using(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 305000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Verify the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "CommonStep.verify_The_Status_Code_Is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51085500,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Get the values of following fields \"lat\",\"lon\",\"description\",\"pressure\",\"country\" and \"name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lat",
+                  "offset": 36
+                },
+                {
+                  "val": "lon",
+                  "offset": 42
+                },
+                {
+                  "val": "description",
+                  "offset": 48
+                },
+                {
+                  "val": "pressure",
+                  "offset": 62
+                },
+                {
+                  "val": "country",
+                  "offset": 73
+                },
+                {
+                  "val": "name",
+                  "offset": 87
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.get_the_values_of_following_fields(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 421300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Retrieve the Open Weather Map end point",
+            "match": {
+              "location": "APICallsWithMultipleEnpointsStep.retrieve_the_Open_Weather_Map_end_point()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 50,
+        "name": "Get the value from the Open Weather Map using zip and appid",
+        "description": "",
+        "id": "api-automation;get-the-value-from-the-open-weather-map-using-zip-and-appid;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1395810200,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Hit \"GET\" end point to fetch the data in Open Weather Map using zip for \"94040,us\" and \"b1b15e88fa797225412429c1c50c122a1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "GET",
+                  "offset": 5
+                },
+                {
+                  "val": "zip",
+                  "offset": 64
+                },
+                {
+                  "val": "94040,us",
+                  "offset": 73
+                },
+                {
+                  "val": "b1b15e88fa797225412429c1c50c122a1",
+                  "offset": 88
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.hit_The_Endpoint_To_Fetch_The_Data_In_Open_Weather_Map_Using(String,String,String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 275400,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Verify the status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 26
+                }
+              ],
+              "location": "CommonStep.verify_The_Status_Code_Is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 66291300,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Get the values of following fields \"lat\",\"lon\",\"description\",\"pressure\",\"country\" and \"name\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "lat",
+                  "offset": 36
+                },
+                {
+                  "val": "lon",
+                  "offset": 42
+                },
+                {
+                  "val": "description",
+                  "offset": 48
+                },
+                {
+                  "val": "pressure",
+                  "offset": 62
+                },
+                {
+                  "val": "country",
+                  "offset": 73
+                },
+                {
+                  "val": "name",
+                  "offset": 87
+                }
+              ],
+              "location": "APICallsWithMultipleEnpointsStep.get_the_values_of_following_fields(String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "API Automation",
+    "description": "",
+    "id": "api-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Services/TC1_.feature",
+    "tags": []
+  }
+]
